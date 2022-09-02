@@ -1,0 +1,65 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+/* BODY */
+
+p {
+  font-family: open sans, sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  margin-top: 1em;
+}
+
+div {
+  text-align: center;
+  width: 94%;
+  margin: 0 auto;
+  padding: 42px;
+}
+
+/* HEADER */
+
+#header_logo {
+  box-sizing: border-box;
+  background-color: black;
+  margin: 0%;
+  width: 100%;
+  padding: 20px;
+}
+
+#header_logo img {
+  width: 18vh;
+  padding: 13px;
+}
+
+h1,
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+  font-size: 32px;
+}
+
+h1 {
+  line-height: 1em;
+}
+
+#background_img {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  margin: 2em;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
